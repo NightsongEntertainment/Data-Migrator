@@ -33,7 +33,7 @@ The ruby code is old and will _not_ work. All of the models are finished here, b
 (limitation of Ruby / tinytds gem).
 
 Ruby Requirements
-=================
+-----------------
 * Local MySQL Instance (v5.0.3 or newer)
 * Remote MSSQL Server Instance
 * Pre-defined mysql database with the appropriate rails schema
@@ -42,7 +42,7 @@ Ruby Requirements
 * RVM
 
 Ruby Setup
-==========
+----------
 ```bash
 brew install freetds
 rvm 1.9.2@eve_migrator --create
@@ -50,7 +50,7 @@ bundle install
 ```
 
 Ruby Execution
-==============
+--------------
 **WARNING: Any tables that are being loaded will remove all current data before loading the new data. Consider commenting out classes that are "good"**
 
 ```bash
